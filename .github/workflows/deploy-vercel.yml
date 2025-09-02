@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Instalar o Vercel CLI
         run: npm install --global vercel
-      - name: Deplou para o Vercel
-        run: vercel --prod --yes --token ${{ secrets.VERCEL_TOKEN}}
+      - name: Deploy para o Vercel
+        run: vercel --prod --yes --token ${{ secrets.VERCEL_TOKEN }}
